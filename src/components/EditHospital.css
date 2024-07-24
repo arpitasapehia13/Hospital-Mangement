@@ -1,0 +1,48 @@
+.edit-hospital-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--card-background-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--card-shadow-color);
+    color: var(--text-color);
+}
+
+.edit-hospital-form h2 {
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.edit-hospital-form .form-group {
+    margin-bottom: 15px;
+}
+
+.edit-hospital-form .form-group label {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.edit-hospital-form .form-group input,
+.edit-hospital-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000715;
+    border-radius: 5px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.edit-hospital-form button {
+    padding: 10px 20px;
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.edit-hospital-form button:hover {
+    background-color: var(--button-hover-background-color);
+}

@@ -1,0 +1,55 @@
+.App {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.App.dark {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-right: 15px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar .nav-links a:hover {
+    text-decoration: underline;
+}
+
+.toggle-button {
+    background-color: #f8f9fa;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.toggle-button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
