@@ -37,4 +37,4 @@ npm start
 pen your browser and go to http://localhost:3000 to view the application.
 
 Opening an issue to report bugs or request features.
-Forking the repository and submitting a pull request with your changes.
+Forking the repository and submitting a pull request with your change.
